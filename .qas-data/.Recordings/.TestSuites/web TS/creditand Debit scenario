@@ -1,0 +1,696 @@
+{
+    "steps": [
+        {
+            "command": "Open",
+            "element": "",
+            "eArray": [],
+            "input": "https://qas.qmetry.com/bank",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        },
+        {
+            "command": "Clear",
+            "element": "text.txtusername",
+            "eArray": [
+                [
+                    "id=txtUsername",
+                    "id"
+                ],
+                [
+                    "xpath=//input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#txtUsername",
+                    "css"
+                ],
+                [
+                    "xpath=//label[text()='Username']//following::input",
+                    "xpath:nearLabel"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='QMetry Bank Login'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "text.txtusername",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "text.txtusername",
+            "elementDesc": "Input for txtUsername",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        },
+        {
+            "command": "Type",
+            "element": "text.txtusername",
+            "eArray": [
+                [
+                    "text.txtusername",
+                    "key"
+                ],
+                [
+                    "id=txtUsername",
+                    "id"
+                ],
+                [
+                    "xpath=//input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#txtUsername",
+                    "css"
+                ],
+                [
+                    "xpath=//label[text()='Username']//following::input",
+                    "xpath:nearLabel"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='QMetry Bank Login'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[2]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "Bob",
+            "status": "NotRun",
+            "elementKey": "text.txtusername",
+            "elementDesc": "Input for txtUsername",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        },
+        {
+            "command": "Clear",
+            "element": "password.txtpassword",
+            "eArray": [
+                [
+                    "id=txtPassword",
+                    "id"
+                ],
+                [
+                    "xpath=//div[2]/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#txtPassword",
+                    "css"
+                ],
+                [
+                    "xpath=//label[text()='Password']//following::input",
+                    "xpath:nearLabel"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "password.txtpassword",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "password.txtpassword",
+            "elementDesc": "txtPassword password",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        },
+        {
+            "command": "Type",
+            "element": "password.txtpassword",
+            "eArray": [
+                [
+                    "id=txtPassword",
+                    "id"
+                ],
+                [
+                    "xpath=//div[2]/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#txtPassword",
+                    "css"
+                ],
+                [
+                    "xpath=//label[text()='Password']//following::input",
+                    "xpath:nearLabel"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "password.txtpassword",
+                    "key"
+                ]
+            ],
+            "input": "Qm9i",
+            "status": "NotRun",
+            "elementKey": "password.txtpassword",
+            "elementDesc": "txtPassword password",
+            "isEncrypted": true,
+            "isDisplay": true,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        },
+        {
+            "command": "Verify Present",
+            "element": "button.btnlogin",
+            "eArray": [
+                [
+                    "id=btnLogin",
+                    "id"
+                ],
+                [
+                    "xpath=//button",
+                    "xpath:position"
+                ],
+                [
+                    "css=#btnLogin",
+                    "css"
+                ],
+                [
+                    "xpath=//label[text()='Password']//following::button",
+                    "xpath:nearLabel"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//button[text()='Login']",
+                    "xpath:innerText"
+                ],
+                [
+                    "button.btnlogin",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "button.btnlogin",
+            "elementDesc": "Button btnLogin",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "button.btnlogin",
+            "eArray": [
+                [
+                    "id=btnLogin",
+                    "id"
+                ],
+                [
+                    "xpath=//button",
+                    "xpath:position"
+                ],
+                [
+                    "css=#btnLogin",
+                    "css"
+                ],
+                [
+                    "xpath=//label[text()='Password']//following::button",
+                    "xpath:nearLabel"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//button[text()='Login']",
+                    "xpath:innerText"
+                ],
+                [
+                    "button.btnlogin",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "button.btnlogin",
+            "elementDesc": "Button btnLogin",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        },
+        {
+            "command": "Drag And Drop",
+            "element": "button.btnlogin",
+            "eArray": [
+                [
+                    "id=btnLogin",
+                    "id"
+                ],
+                [
+                    "xpath=//button",
+                    "xpath:position"
+                ],
+                [
+                    "css=#btnLogin",
+                    "css"
+                ],
+                [
+                    "xpath=//label[text()='Password']//following::button",
+                    "xpath:nearLabel"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//button[text()='Login']",
+                    "xpath:innerText"
+                ],
+                [
+                    "button.btnlogin",
+                    "key"
+                ]
+            ],
+            "input": "xpath=//input",
+            "status": "NotRun",
+            "elementKey": "number.enter amount for debit",
+            "elementDesc": "Enter amount for debit number",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        },
+        {
+            "command": "Clear",
+            "element": "number.enter.amount.for.credit",
+            "eArray": [
+                [
+                    "xpath=//div[2]/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input.form-control.ng-untouched.ng-valid.ng-dirty",
+                    "css"
+                ],
+                [
+                    "xpath=//*[@placeholder='Enter amount for credit']",
+                    "xpath:placeholder"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Debit'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='$ 104340'])[1]/following::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Credit'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Logged in successfully.'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "number.enter.amount.for.credit",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "number.enter amount for credit",
+            "elementDesc": "Enter amount for credit number",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        },
+        {
+            "command": "Type",
+            "element": "number.enter.amount.for.credit",
+            "eArray": [
+                [
+                    "number.enter.amount.for.credit",
+                    "key"
+                ],
+                [
+                    "xpath=//div[2]/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input.form-control.ng-untouched.ng-valid.ng-dirty",
+                    "css"
+                ],
+                [
+                    "xpath=//*[@placeholder='Enter amount for credit']",
+                    "xpath:placeholder"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Debit'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='$ 104340'])[1]/following::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Credit'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Logged in successfully.'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "${credit}",
+            "status": "NotRun",
+            "elementKey": "number.enter amount for credit",
+            "elementDesc": "Enter amount for credit number",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "button.credit",
+            "eArray": [
+                [
+                    "xpath=//div[2]/span/button",
+                    "xpath:position"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Debit'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='$ 104340'])[1]/following::button[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Logged in successfully.'])[1]/preceding::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//button[text()='Credit']",
+                    "xpath:innerText"
+                ],
+                [
+                    "button.credit",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "button.credit",
+            "elementDesc": "Button credit",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        },
+        {
+            "command": "Clear",
+            "element": "number.enter.amount.for.debit",
+            "eArray": [
+                [
+                    "xpath=//input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input.form-control.ng-untouched.ng-valid.ng-dirty",
+                    "css"
+                ],
+                [
+                    "xpath=//*[@placeholder='Enter amount for debit']",
+                    "xpath:placeholder"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='$ 105340'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Current Balance :'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Debit'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Credit'])[1]/preceding::input[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "number.enter.amount.for.debit",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "number.enter amount for debit",
+            "elementDesc": "Enter amount for debit number",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        },
+        {
+            "command": "Type",
+            "element": "number.enter.amount.for.debit",
+            "eArray": [
+                [
+                    "number.enter.amount.for.debit",
+                    "key"
+                ],
+                [
+                    "xpath=//input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input.form-control.ng-untouched.ng-valid.ng-dirty",
+                    "css"
+                ],
+                [
+                    "xpath=//*[@placeholder='Enter amount for debit']",
+                    "xpath:placeholder"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='$ 105340'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Current Balance :'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Debit'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Credit'])[1]/preceding::input[2]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "${debit}",
+            "status": "NotRun",
+            "elementKey": "number.enter amount for debit",
+            "elementDesc": "Enter amount for debit number",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "button.debit",
+            "eArray": [
+                [
+                    "xpath=//span/button",
+                    "xpath:position"
+                ],
+                [
+                    "css=button.btn.btn-default",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='$ 105340'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Current Balance :'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Credit'])[1]/preceding::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Amount credited.'])[1]/preceding::button[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "button.debit",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "button.debit",
+            "elementDesc": "Button debit",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "button.logout",
+            "eArray": [
+                [
+                    "xpath=//button",
+                    "xpath:position"
+                ],
+                [
+                    "css=button.btn.btn-success",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Name:'])[1]/preceding::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//button[text()='Log Out']",
+                    "xpath:innerText"
+                ],
+                [
+                    "button.logout",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "button.logout",
+            "elementDesc": "Button logout",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "@@mycolor": null
+        }
+    ],
+    "type": "web",
+    "capabilities": {
+        "remoteUrl": "https://qas.qmetry.com/bank",
+        "type": "web",
+        "selectBrowser": "chrome",
+        "selectDevice": "",
+        "isRemote": false,
+        "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+        "isDebugMode": false,
+        "details": {
+            "deviceMetrics": {
+                "name": "",
+                "width": "",
+                "height": "",
+                "pixelRatio": "",
+                "userAgent": ""
+            }
+        }
+    },
+    "testDataExample": [
+        {
+            "credit": "2000",
+            "debit": "200"
+        },
+        {
+            "credit": "3000",
+            "debit": "30"
+        }
+    ],
+    "isTCValid": true,
+    "externalTestData": false,
+    "recordSessionType": "multiple",
+    "tags": [],
+    "description": "asdf",
+    "shared": false,
+    "executionStatus": "NotRun"
+}
